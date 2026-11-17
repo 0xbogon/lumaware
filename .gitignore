@@ -1,0 +1,32 @@
+# Build output (app bundle, per-arch binaries, generated icon)
+build/
+*.dSYM/
+*.zip
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Swift Package Manager (if add a Package.swift later)
+.build/
+.swiftpm/
+Package.resolved
+
+# Xcode (if wrap this in a project later)
+xcuserdata/
+DerivedData/
+*.xcuserstate
+
+# Editors
+*.swp
+*~
+
+# Signing and notarization secrets: never commit these
+*.p12
+*.cer
+*.mobileprovision
+*.keychain
+*.keychain-db
+.env
